@@ -1,0 +1,21 @@
+{
+  "name": "wdd430-w02-group-project",
+  "version": "1.0.0",
+  "description": "https://github.com/ririkuchan/wdd430-w02-group-project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ririkuchan/wdd430-w02-group-project.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/ririkuchan/wdd430-w02-group-project/issues"
+  },
+  "homepage": "https://github.com/ririkuchan/wdd430-w02-group-project#readme"
+}
