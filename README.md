@@ -3,6 +3,11 @@
 ## Repo URL
 https://github.com/ririkuchan/wdd430-w02-group-project
 
+## Week 04 Update
+- Reviewed project structure and prepared tasks for Week 04.
+- Updated Trello board with new Week 04 tasks.
+- Moved one task into In Progress to reflect current progress.
+
 ## Group Summary
 **Date:** 2025-11-06  
 **Participants:** Stella (facilitator), async group members (Discord coordination)
