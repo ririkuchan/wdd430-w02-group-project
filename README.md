@@ -3,6 +3,20 @@
 ## Repo URL
 https://github.com/ririkuchan/wdd430-w02-group-project
 
+## Week 06 Update
+### Summary
+- Added basic dashboard routing under `/dashboard`
+- Added folders and placeholder pages for Customers and Invoices
+- Set up TypeScript configuration and environment files
+- Cleaned project structure and removed unused files
+- Prepared for upcoming CRUD implementation in Week 07
+- Updated `.gitignore` to exclude `.next` and environment files
+### Next Steps
+- Implement full CRUD for Customers and Invoices
+- Add authentication guard to protect dashboard routes
+- Improve layout components and navigation
+
+
 ## Week 05 Update
 - Reviewed Trello board and confirmed task coverage for Week 05.
 - Verified project repository structure and ensured the workflow remains consistent.
