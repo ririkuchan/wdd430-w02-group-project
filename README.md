@@ -3,6 +3,10 @@
 ## Repo URL
 https://github.com/ririkuchan/wdd430-w02-group-project
 
+## Week 05 Update
+- Reviewed Trello board and confirmed task coverage for Week 05.
+- Verified project repository structure and ensured the workflow remains consistent.
+
 ## Week 04 Update
 - Reviewed project structure and prepared tasks for Week 04.
 - Updated Trello board with new Week 04 tasks.
