@@ -1,19 +1,27 @@
-export default function DashboardLayout({
-  children,
-}: {
-  children: React.ReactNode;
-}) {
-  return (
-    <div className="flex min-h-screen">
-      <aside className="w-60 bg-slate-900 text-white p-4">
-        <nav className="flex flex-col gap-4">
-          <a href="/dashboard">Home</a>
-          <a href="/dashboard/customers">Customers</a>
-          <a href="/dashboard/invoices">Invoices</a>
-        </nav>
-      </aside>
+// app/dashboard/layout.tsx
+import Link from "next/link";
+import type { ReactNode } from "react";
 
-      <main className="flex-1 p-6 bg-slate-50">{children}</main>
+export default function DashboardLayout({ children }: { children: ReactNode }) {
+  return (
+    <div>
+      {/* シンプルなナビゲーションバー */}
+      <nav
+        style={{
+          display: "flex",
+          gap: "1rem",
+          padding: "0.75rem 1rem",
+          borderBottom: "1px solid #ddd",
+          marginBottom: "1rem",
+        }}
+      >
+        <Link href="/dashboard">Home</Link>
+        <Link href="/dashboard/customers">Customers</Link>
+        <Link href="/dashboard/invoices">Invoices</Link>
+      </nav>
+
+      {/* 各ページの内容 */}
+      <main style={{ padding: "0 1rem" }}>{children}</main>
     </div>
   );
 }

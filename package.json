@@ -1,21 +1,26 @@
 {
   "name": "wdd430-w02-group-project",
-  "version": "1.0.0",
-  "description": "https://github.com/ririkuchan/wdd430-w02-group-project",
-  "main": "index.js",
+  "version": "0.1.0",
+  "private": true,
+
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/ririkuchan/wdd430-w02-group-project.git"
+
+  "dependencies": {
+    "next": "14.2.3",
+    "react": "18.3.1",
+    "react-dom": "18.3.1"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "type": "commonjs",
-  "bugs": {
-    "url": "https://github.com/ririkuchan/wdd430-w02-group-project/issues"
-  },
-  "homepage": "https://github.com/ririkuchan/wdd430-w02-group-project#readme"
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "@types/react": "^18.0.0",
+    "@types/react-dom": "^18.0.0",
+    "eslint": "^8.0.0",
+    "eslint-config-next": "14.2.3",
+    "typescript": "^5.0.0"
+  }
 }
